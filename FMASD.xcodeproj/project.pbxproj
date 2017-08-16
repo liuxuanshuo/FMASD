@@ -15,6 +15,7 @@
 		6561964F1F444A2700E0FF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6561964D1F444A2700E0FF00 /* LaunchScreen.storyboard */; };
 		6561965A1F444A2700E0FF00 /* FMASDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656196591F444A2700E0FF00 /* FMASDTests.m */; };
 		656196651F444A2700E0FF00 /* FMASDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656196641F444A2700E0FF00 /* FMASDUITests.m */; };
+		656196751F444AE800E0FF00 /* FASDFEWSSDGD.m in Sources */ = {isa = PBXBuildFile; fileRef = 656196741F444AE800E0FF00 /* FASDFEWSSDGD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		656196601F444A2700E0FF00 /* FMASDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMASDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656196641F444A2700E0FF00 /* FMASDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMASDUITests.m; sourceTree = "<group>"; };
 		656196661F444A2700E0FF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656196731F444AE800E0FF00 /* FASDFEWSSDGD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FASDFEWSSDGD.h; sourceTree = "<group>"; };
+		656196741F444AE800E0FF00 /* FASDFEWSSDGD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FASDFEWSSDGD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			children = (
 				656196421F444A2700E0FF00 /* AppDelegate.h */,
 				656196431F444A2700E0FF00 /* AppDelegate.m */,
+				656196721F444ADA00E0FF00 /* TTDSFSAE */,
 				656196451F444A2700E0FF00 /* ViewController.h */,
 				656196461F444A2700E0FF00 /* ViewController.m */,
 				656196481F444A2700E0FF00 /* Main.storyboard */,
@@ -139,6 +143,15 @@
 			);
 			path = FMASDUITests;
 			sourceTree = "<group>";
+		};
+		656196721F444ADA00E0FF00 /* TTDSFSAE */ = {
+			isa = PBXGroup;
+			children = (
+				656196731F444AE800E0FF00 /* FASDFEWSSDGD.h */,
+				656196741F444AE800E0FF00 /* FASDFEWSSDGD.m */,
+			);
+			path = TTDSFSAE;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -275,6 +288,7 @@
 			files = (
 				656196471F444A2700E0FF00 /* ViewController.m in Sources */,
 				656196441F444A2700E0FF00 /* AppDelegate.m in Sources */,
+				656196751F444AE800E0FF00 /* FASDFEWSSDGD.m in Sources */,
 				656196411F444A2700E0FF00 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FMASD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuxuanshuo.FMASD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FMASD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuxuanshuo.FMASD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
